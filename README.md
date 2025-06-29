@@ -2,9 +2,9 @@
 
 # PlexDL (Alpha)
 
-**PlexDL** is a Chrome extension that adds a download button to media items in the Plex web interface, allowing you to save episodes, seasons, or entire shows directly to your local drive.
-This project is partly based on the work of PipLongRun.
-This repository serves as a proof of concept. I'm working on a more robust, modular version that will be released soon.
+**PlexDL** is a Chrome extension that adds a download button to media items in the Plex web interface, allowing you to save episodes, seasons, or entire shows directly to your local drive.  
+This project is partly based on the work of PipLongRun.  
+This repository serves as a proof of concept. I'm working on a more robust, modular version that will be released soon.  
 
 ## Features
 
