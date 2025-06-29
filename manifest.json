@@ -1,0 +1,50 @@
+{
+    "manifest_version": 3,
+    "version": "0.1.0-alpha",
+    "name": "PlexDL",
+    "description": "Adds a download button to media in the Plex interface.",
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "storage",
+        "webRequest",
+        "downloads"
+    ],
+    "host_permissions": [
+        "*://*.plex.tv/*",
+        "*://*.plex.direct/*"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.plex.tv/*",
+                "*://*.plex.direct/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "css": [
+                "styles.css"
+            ]
+        }
+    ],
+    "icons": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    },
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "styles.css"
+            ],
+            "matches": [
+                "*://*.plex.tv/*",
+                "*://*.plex.direct/*"
+            ]
+        }
+    ]
+}

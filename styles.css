@@ -1,0 +1,37 @@
+/* styles.css */
+
+#plex-download-button {
+  cursor: pointer;
+  display: flex;
+  gap: var(--size-xs);
+  
+  /*background-color: var(--color-primary, #f5c518);
+  color: var(--color-text-primary, #1e1e27);
+  border: none;*/
+  
+  transition: background-color 0.2s ease, transform 0.1s ease; /* Transitions douces */
+}
+
+#plex-download-button > span {
+      font-family: var(--font-button-1-font-family);
+    font-size: var(--font-button-1-font-size);
+    font-stretch: var(--font-button-1-font-stretch);
+    font-style: var(--font-button-1-font-style);
+    font-weight: var(--font-button-1-font-weight);
+    letter-spacing: var(--font-button-1-letter-spacing);
+    line-height: var(--font-button-1-line-height);
+    text-transform: var(--font-button-1-text-transform);
+}
+
+#plex-download-button > svg {
+  height: var(--size-l);
+}
+
+/*#plex-download-button:hover {
+  background-color: var(--color-primary-hover, #e0b316);
+  transform: translateY(-1px);
+}
+
+#plex-download-button:active {
+  transform: translateY(0);
+}*/
