@@ -2,12 +2,12 @@
 
 // --- Global Variables ---
 let currentPlexServer = {
-    baseUri: null,      // URI de base du serveur Plex actif
-    accessToken: null   // Token d'accès spécifique à ce serveur
+    baseUri: null,      // Base URI of the active Plex server
+    accessToken: null   // Access token for this server
 };
 let currentMediaId = null;            // ID du média actuellement téléchargé
-let lastProcessedMediaUrl = null;     // Pour éviter de ré-injecter le bouton sur la même URL
-let plexRelayUrls = {};               // (inutile ici, mais conservé si besoin ultérieur)
+let lastProcessedMediaUrl = null;     // To avoid re-injecting the button on the same URL
+let plexRelayUrls = {};               // (unused here, but kept in case needed later)
 
 // --- Retrieve Plex token from localStorage ---
 function getToken() {
