@@ -4,6 +4,7 @@
 
 **PlexDL** is a Chrome extension that adds a download button to media items in the Plex web interface, allowing you to save episodes, seasons, or entire shows directly to your local drive.
 This project is partly based on the work of PipLongRun.
+This repository serves as a proof of concept. I'm working on a more robust, modular version that will be released soon.
 
 ## Features
 
@@ -17,8 +18,8 @@ This project is partly based on the work of PipLongRun.
 
 1. Clone or download this repository:
    ```bash
-   git clone https://github.com/your-username/plexdl-extension.git
-   cd plexdl-extension
+   git clone https://github.com/badraxas/PlexDL.git
+   cd PlexDL
    ```
 2. Open Chrome and navigate to `chrome://extensions`.
 3. Enable **Developer mode** (toggle in the top right).
@@ -26,12 +27,14 @@ This project is partly based on the work of PipLongRun.
 
 ## Usage
 
-1. Open the Plex web app at `https://app.plex.tv/desktop` (or other `*.plex.tv`/`*.plex.direct` URLs).
+1. Open the Plex web app at `https://app.plex.tv`
 2. Navigate to a show, season, or episode page.
 3. Click the **Download** button that appears next to **Play**.
 4. Downloaded files will appear in your default downloads folder.
 
-**Note:** Chrome queues up to 6 simultaneous connections per host; additional downloads wait in queue.
+**Note:** Chrome queues up to six simultaneous connections per host; additional downloads wait in the queue and cannot be cleared quickly. There are two ways to address this:
+- Suspend the download and remove it in the browser's Downloads center.
+- Delete all the `.crdownload` files in your download directory as new files appear.
 
 ## File Structure
 
