@@ -13,7 +13,7 @@
 }
 
 #plex-download-button > span {
-      font-family: var(--font-button-1-font-family);
+    font-family: var(--font-button-1-font-family);
     font-size: var(--font-button-1-font-size);
     font-stretch: var(--font-button-1-font-stretch);
     font-style: var(--font-button-1-font-style);

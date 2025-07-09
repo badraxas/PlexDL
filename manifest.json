@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "version": "0.1.0-alpha",
+    "version": "0.1.0",
     "name": "PlexDL",
     "description": "Adds a download button to media in the Plex interface.",
     "permissions": [
