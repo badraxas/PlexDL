@@ -6,6 +6,12 @@
 This project is partly based on the work of PipLongRun.  
 This repository serves as a proof of concept. I'm working on a more robust, modular version that will be released soon.  
 
+> 🇫🇷 The project was originally created for my dad (in France) to make backups from my selfhosted Plex server.
+> 
+> I wrote a full article (in French) explaining the motivation and how it works:  
+> [Read it on LabDuGeek.fr](https://www.labdugeek.fr/plexdl-lextension-chrome-pour-le-telechargement-des-films-plex/)
+
+
 ## Features
 
 - Injects a “Download” button next to the default Play button on Plex media pages.
